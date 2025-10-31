@@ -1,0 +1,24 @@
+# === Ignore full myFirstApp folder ===
+myFirstApp/
+
+# === Ignore node_modules inside API ===
+api/node_modules/
+
+# === Ignore node_modules and build files inside myJsonApp ===
+myJsonApp/node_modules/
+myJsonApp/www/
+myJsonApp/dist/
+myJsonApp/platforms/
+myJsonApp/plugins/
+
+# === Common temp & log files ===
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === VSCode local settings ===
+.vscode/
+
